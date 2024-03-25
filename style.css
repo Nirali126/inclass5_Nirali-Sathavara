@@ -1,0 +1,165 @@
+/* Nirali Sathavara
+ my student no. is 8927978*/
+
+html{
+  font: 20px sans-serif;
+}
+header{
+  background: rgb(243, 117, 95);
+  padding: 1px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+}
+
+nav a {
+  border: 2px solid indigo;
+  width: 100px;
+  border-radius: 5px;
+  color: indigo;
+  background-color: cornsilk;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+}
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+nav a:hover {
+  color: cornsilk;
+  background-color: indigo;
+}
+body {
+  background-color:hsl(139, 84%, 78%); 
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+aside {
+  flex: 1 1 30%;
+  background-color: hsl(273, 97%, 88%);
+}
+aside ul li{
+  line-height: 2;
+  list-style: square;
+}
+h1{
+  font-style: normal;
+  color:rgb(0, 0, 0); 
+  font-size: 2.5rem;
+}
+main{
+  flex: 2 1 70%;
+  background-color: hsl(0, 89%, 83%);
+}
+  
+
+
+  
+h2 {
+  color:#600300;
+ 
+}
+
+.structural header,main,aside,footer {
+  border: 2px solid black;
+  padding: 1px;
+  margin: 1rem;
+    
+}
+#p1{
+  color: rgb(4, 3, 3);
+}
+#p2{
+  color: rgb(4, 3, 3);
+}
+footer{
+  background: rgb(243, 117, 95);
+  text-align: center;    
+  background-color: #f7e7d9; 
+  padding: 10px; 
+  font-size: 20px;
+  margin-top: auto;
+    
+
+}
+a:hover{
+ color: #c5201d;
+}
+form {
+  border: 5px dashed #111010;
+  padding: 5px;
+}
+main, aside {
+  height: auto;
+}
+
+input[type="text"],
+input[type="email"],input[type="submit"],select,option {
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label,input[type="submit"] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+#gallery figure {
+  border: 1px solid #000;
+}
+
+#gallery img {
+  width: 40%;
+  height: 40%;
+}
+@media screen and (max-width: 600px) {
+  html {
+      font-size: 10px;
+  }
+
+  #gallery {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  body {
+      flex-direction: column-reverse;
+  }
+}
+
+
+
+  
+  
+  
+  
+  
+  
